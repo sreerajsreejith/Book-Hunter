@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.BLeek.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 fw-bold" href="#">
+                <img src="./image/logo2.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top ">
+                BOOKS </a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pricing
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">A-Class</a></li>
+                <li><a class="dropdown-item" href="#">Premium-Class</a></li>
+                <li><a class="dropdown-item" href="#">Platinum-Class</a></li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid text-center">
+        <h1>Albert Einstein :</h1>
+    </div>
+    <div class="container-fluid text-center bg-warning fs-2 fst-italic">"The Only thing you Absolutely have to Know is
+        the Location of the Library"</div>
+
+    <div id="carouselExampleCaptions" class="carousel slide w-100 carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="./image/q.jpg" class="d-block d-sm-block d-xs-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="./image/q1.jpg" class="d-block d-sm-block d-xs-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="./image/q2.jpg" class="d-block d-sm-block d-xs-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container-fluid d-flex mt-5 justify-content-evenly">
+        <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="./image/b.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"></p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            <img src="./image/b1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"></p>
+            </div>
+        </div>
+        <div class="card rounded" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            <img src="./image/b2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade w-100" id="exampleModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">DUNE By Frank Herbert</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <img src="./image/b.jpg"><p  class="text-justify">Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for.When House Atreides is betrayed, the destruction of Paul’s family will set the boy on a journey toward a destiny greater than he could ever have imagined. And as he evolves into the mysterious man known as Muad’Dib, he will bring to fruition humankind’s most ancient and unattainable dream.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade w-100" id="exampleModal1" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">A Thousand Pieces Of You By Claudia Gray</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./image/b1.jpg"><p>Marguerite Caine's physicist parents are known for their groundbreaking achievements. Their most astonishing invention, called the Firebird, allows users to jump into multiple universes—and promises to revolutionize science forever. But then Marguerite's father is murdered, and the killer—her parent's handsome, enigmatic assistant Paul— escapes into another dimension before the law can touch him.Marguerite refuses to let the man who destroyed her family go free. So she races after Paul through different universes, always leaping into another version of herself. But she also meets alternate versions of the people she knows—including Paul, whose life entangles with hers in increasingly familiar ways. Before long she begins to question Paul's guilt—as well as her own heart. And soon she discovers the truth behind her father's death is far more sinister than she expected.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade w-100" id="exampleModal2" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">The Sum Of All Things By Nicole Brooks</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./image/b2.jpg"><p>Homeless and addicted, Wren wants to be alone. But the women chattering in her head insist that she must fulfill her destiny. She knows the ghosts are crazy to think that one small person can finally give voice to women, inciting lasting change in the patriarchy. She would prefer to continue using drugs to silence the voices. But an unwanted pregnancy complicates her plans. Alex has sacrificed having children to forward her career, but as she approaches fifty, she begins to feel that her existence is shallow. Tired of carefully watching her every move and choice of words for fear of men and their apparently uncontrollable urges and power needs, she walks out of her job. Recklessly, she invites Wren, the woman she has seen panhandling near her office building, to live with her. Wren finds herself welcoming the nurturing Alex readily offers, giving her the courage to finally explain to another person what, or who, haunts her. Alex has quietly tolerated many injustices at the hands of men but is astonished to find it’s nothing compared to what Wren has endured. In a life-threatening situation, Wren must either claim her fate—a life that has been planned out for years before her birth—or abandon her baby into the world that has been so cruel to women.The Sum of All Things is a powerful novel that discusses the gender dynamics which have play</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center mt-5">
+        <div class="row row-cols-4 ">
+            <div class="col-2 justify-content-start d-flex fw-bold"><p>Licensed by Global Books Org</p>
+            <img width="40" height="40" src="./image/logo2.png"></div>
+            <div class="col"><strong>Features</strong></div>
+            <div class="col"><strong>About</strong></div>
+            <div class="col"><strong>Resources</strong></div>
+        </div>
+        <div class="row row-cols-4 mt-2">
+            <div class="col-2">&nbsp;</div>
+            <div class="col">lorem</div>
+            <div class="col">lorem</div>
+            <div class="col">lorem</div>
+        </div>
+        <div class="row row-cols-4 mt-2">
+            <div class="col-2 ">&nbsp;</div>
+            <div class="col">lorem</div>
+            <div class="col">lorem</div>
+            <div class="col">lorem</div>
+        </div>
+        <div class="row row-cols-4 mt-2">
+            <div class="col-2">&nbsp;</div>
+            <div class="col">lorem</div>
+            <div class="col">lorem</div>
+            <div class="col">lorem</div>
+        </div>
+</body>
+
+</html>
